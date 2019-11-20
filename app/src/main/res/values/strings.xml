@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Artist Integration</string>
+    <string name="title_timeline" translatable="false">Timeline</string>
+    <string name="title_marketplace" translatable="false">Marketplace</string>
+    <string name="title_events" translatable="false">Events</string>
+    <string name="title_profile" translatable="false">Profile</string>
+</resources>
