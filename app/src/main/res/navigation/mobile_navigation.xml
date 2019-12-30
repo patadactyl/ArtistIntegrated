@@ -12,12 +12,6 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.artistspace.ui.dashboard.MarketplaceFragment"
-        android:label="@string/title_marketplace"
-        tools:layout="@layout/fragment_marketplace" />
-
-    <fragment
         android:id="@+id/navigation_events"
         android:name="com.example.artistspace.ui.events.EventsFragment"
         android:label="@string/title_events"
