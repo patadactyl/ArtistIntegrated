@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.artistspace.R
 
-class TimelineFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
 
@@ -21,7 +21,7 @@ class TimelineFragment : Fragment() {
     ): View? {
         homeViewModel =
             ViewModelProviders.of(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_timeline, container, false)
+        val root = inflater.inflate(R.layout.fragment_home, container, false)
         val textView: TextView = root.findViewById(R.id.text_home)
         homeViewModel.text.observe(this, Observer {
             textView.text = it

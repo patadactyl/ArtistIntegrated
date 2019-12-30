@@ -1,13 +1,15 @@
-package com.example.artistspace.ui.notifications
+package com.example.artistspace.ui.events
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class EventsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "Events Page \n" +
+                "\n" +
+                "Location based timeline for events in a user's area."
     }
     val text: LiveData<String> = _text
 }

@@ -4,7 +4,7 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_timeline" />
+        android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_dashboard"
@@ -12,7 +12,7 @@
         android:title="@string/title_marketplace" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_events"
         android:icon="@drawable/ic_people_black_24dp"
         android:title="@string/title_events" />
 

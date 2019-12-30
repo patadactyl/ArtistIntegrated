@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.artistspace.ui.home.TimelineFragment"
-        android:label="@string/title_timeline"
-        tools:layout="@layout/fragment_timeline" />
+        android:name="com.example.artistspace.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_marketplace" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.artistspace.ui.notifications.EventsFragment"
+        android:id="@+id/navigation_events"
+        android:name="com.example.artistspace.ui.events.EventsFragment"
         android:label="@string/title_events"
         tools:layout="@layout/fragment_events" />
 

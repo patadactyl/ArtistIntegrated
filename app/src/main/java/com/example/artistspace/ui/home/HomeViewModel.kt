@@ -7,7 +7,9 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "Home Page \n" +
+                "\n" +
+                "A classic timeline feed for posts by people the user follows."
     }
     val text: LiveData<String> = _text
 }
