@@ -1,4 +1,4 @@
-package com.example.artistspace.ui.events
+package com.artistintegrated.artisin.ui.events
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.example.artistspace.ui.home
+package com.artistintegrated.artisin.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

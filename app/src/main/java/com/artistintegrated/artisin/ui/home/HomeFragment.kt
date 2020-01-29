@@ -1,4 +1,4 @@
-package com.example.artistspace.ui.home
+package com.artistintegrated.artisin.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.artistspace.R
+import com.artistintegrated.artisin.R
 
 class HomeFragment : Fragment() {
 

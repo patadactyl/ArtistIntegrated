@@ -1,4 +1,4 @@
-package com.example.artistspace.ui.profile
+package com.artistintegrated.artisin.ui.profile
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

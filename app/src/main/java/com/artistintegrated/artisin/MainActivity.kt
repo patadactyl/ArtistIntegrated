@@ -1,4 +1,4 @@
-package com.example.artistspace
+package com.artistintegrated.artisin
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
