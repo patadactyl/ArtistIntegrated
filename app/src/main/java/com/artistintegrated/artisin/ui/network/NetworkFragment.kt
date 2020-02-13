@@ -1,4 +1,4 @@
-package com.artistintegrated.artisin.ui.events
+package com.artistintegrated.artisin.ui.network
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.artistintegrated.artisin.R
 
-class EventsFragment : Fragment() {
+class NetworkFragment : Fragment() {
 
-    private lateinit var eventsViewModel: EventsViewModel
+    private lateinit var networkViewModel: NetworkViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        eventsViewModel =
-            ViewModelProviders.of(this).get(EventsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_events, container, false)
-        val textView: TextView = root.findViewById(R.id.text_notifications)
-        eventsViewModel.text.observe(this, Observer {
+        networkViewModel =
+            ViewModelProviders.of(this).get(NetworkViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_network, container, false)
+        val textView: TextView = root.findViewById(R.id.text_network)
+        networkViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

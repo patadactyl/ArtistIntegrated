@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
         val navController = findNavController(R.id.nav_host_fragment)
@@ -21,10 +22,15 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_events, R.id.navigation_profile
+                R.id.navigation_add, R.id.navigation_home, R.id.navigation_network, R.id.navigation_profile
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        setNavBarButtons();
+    }
+
+    private fun setNavBarButtons() {
     }
 }

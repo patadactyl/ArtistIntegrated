@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "392087350702",
+    "firebase_url": "https://artist-integrated.firebaseio.com",
+    "project_id": "artist-integrated",
+    "storage_bucket": "artist-integrated.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392087350702:android:c7c535fada59759f1aac3f",
+        "android_client_info": {
+          "package_name": "com.artistintegrated.artisin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392087350702-crjka5ogq0bu59glhepm519hp7k7dbkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artistintegrated.artisin",
+            "certificate_hash": "550cf1c1565aa7445e240422be0baa58c2c99783"
+          }
+        },
+        {
+          "client_id": "392087350702-73rr1cmgchad0tiga604j4n4snven80d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEicyLm0QX8t58UagyhopEZwcEG2H80ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392087350702-73rr1cmgchad0tiga604j4n4snven80d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

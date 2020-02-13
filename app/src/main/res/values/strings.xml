@@ -2,6 +2,8 @@
     <string name="app_name" translatable="false">Artist Integration</string>
     <string name="title_home" translatable="false">Home</string>
     <string name="title_marketplace" translatable="false">Marketplace</string>
-    <string name="title_events" translatable="false">Events</string>
+    <string name="title_network" translatable="false">Events</string>
     <string name="title_profile" translatable="false">Profile</string>
+    <string name="home_image_view_desc">Image of Event Poster</string>
+    <string name="title_add" translatable="false">Add Content</string>
 </resources>

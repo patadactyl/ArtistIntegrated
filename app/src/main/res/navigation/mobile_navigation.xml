@@ -6,16 +6,21 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.artistintegrated.artisin.ui.home.AddFragment"
+        android:label="@string/title_add" />
+
+    <fragment
         android:id="@+id/navigation_home"
         android:name="com.artistintegrated.artisin.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_events"
-        android:name="com.artistintegrated.artisin.ui.events.EventsFragment"
-        android:label="@string/title_events"
-        tools:layout="@layout/fragment_events" />
+        android:id="@+id/navigation_network"
+        android:name="com.artistintegrated.artisin.ui.network.NetworkFragment"
+        android:label="@string/title_network"
+        tools:layout="@layout/fragment_network" />
 
     <fragment
         android:id="@+id/navigation_profile"
