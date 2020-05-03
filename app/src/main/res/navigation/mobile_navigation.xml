@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_add"
-        android:name="com.artistintegrated.artisin.ui.home.AddFragment"
+        android:name="com.artistintegrated.artisin.ui.add.AddFragment"
         android:label="@string/title_add" />
 
     <fragment

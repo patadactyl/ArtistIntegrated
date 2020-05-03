@@ -1,4 +1,4 @@
-package com.artistintegrated.artisin.ui.home
+package com.artistintegrated.artisin.ui.add
 
 import android.os.Bundle
 import android.view.LayoutInflater

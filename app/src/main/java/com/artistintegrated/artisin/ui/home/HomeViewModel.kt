@@ -6,10 +6,19 @@ import androidx.lifecycle.ViewModel
 
 class HomeViewModel : ViewModel() {
 
+
     private val _text = MutableLiveData<String>().apply {
-        value = "Home Page \n" +
-                "\n" +
-                "A location-based timeline feed for posts about events and collaborations in a user's area."
+        value = ""
     }
     val text: LiveData<String> = _text
+
+    var url = String()
+
+    fun Photo (url: String) {
+        this.url = url
+    }
+
+    fun getPhoto (): String {
+        return url
+    }
 }
