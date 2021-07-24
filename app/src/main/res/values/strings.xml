@@ -6,4 +6,10 @@
     <string name="title_profile" translatable="false">Profile</string>
     <string name="home_image_view_desc">Image of Event Poster</string>
     <string name="title_add" translatable="false">Add Content</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_hint">Enter your email address</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
 </resources>
