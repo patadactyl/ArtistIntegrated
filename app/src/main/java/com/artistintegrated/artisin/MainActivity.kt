@@ -27,12 +27,5 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-        setNavBarButtons()
     }
-
-    private fun setNavBarButtons() {
-    }
-
-
 }
