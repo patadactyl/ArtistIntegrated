@@ -24,7 +24,7 @@ class NetworkFragment : Fragment() {
             ViewModelProviders.of(this).get(NetworkViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_network, container, false)
         val textView: TextView = root.findViewById(R.id.text_network)
-        networkViewModel.text.observe(this, Observer {
+        networkViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         showBottomNav()
