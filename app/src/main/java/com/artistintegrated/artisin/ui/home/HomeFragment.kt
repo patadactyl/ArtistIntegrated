@@ -50,7 +50,7 @@ class HomeFragment : Fragment() {
         //addContent()
         //rv_content_list.layoutManager = LinearLayoutManager(activity)
         //rv_content_list.adapter = HomeViewAdapter(contentFeed, activity!!.applicationContext)
-
+        showBottomNav()
         return root
     }
 
@@ -64,6 +64,11 @@ class HomeFragment : Fragment() {
             ContentObject("Travis Scoot", "My Haus", "April 20 Too")
         ) */
 
+    }
+
+    private fun showBottomNav() {
+        val navView: BottomNavigationView = activity!!.findViewById(R.id.nav_view)
+        navView.visibility = View.VISIBLE
     }
 
 }

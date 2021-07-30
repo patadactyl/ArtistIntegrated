@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.artistintegrated.artisin.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class NetworkFragment : Fragment() {
 
@@ -26,6 +27,12 @@ class NetworkFragment : Fragment() {
         networkViewModel.text.observe(this, Observer {
             textView.text = it
         })
+        showBottomNav()
         return root
+    }
+
+    private fun showBottomNav() {
+        val navView: BottomNavigationView = activity!!.findViewById(R.id.nav_view)
+        navView.visibility = View.VISIBLE
     }
 }
